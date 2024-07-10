@@ -49,7 +49,7 @@ Usage
  Withdraw: Remove 1 ETH from the contract balance.
  Get Greeting: Retrieve a greeting message from the contract.
 ## Smart Contract Details
-# Assessment.sol: Contains functions for deposit, withdrawal, balance retrieval, and a greeting message.
+ Assessment.sol: Contains functions for deposit, withdrawal, balance retrieval, and a greeting message.
 # Functions:
  getBalance(): Returns the contract balance.
  deposit(uint256 _amount): Allows the owner to deposit a specified amount.
