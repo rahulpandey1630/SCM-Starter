@@ -14,7 +14,7 @@ This project is a simple Ethereum smart contract and frontend application using 
    ```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
-Install dependencies:
+## Install dependencies:
 
 bash
 Copy code
@@ -44,22 +44,22 @@ Access the application:
 Open your browser and go to http://localhost:3000.
 
 Usage
-## Connect your MetaMask wallet to interact with the contract.
-## Deposit: Add 1 ETH to the contract balance.
-## Withdraw: Remove 1 ETH from the contract balance.
-## Get Greeting: Retrieve a greeting message from the contract.
+ Connect your MetaMask wallet to interact with the contract.
+ Deposit: Add 1 ETH to the contract balance.
+ Withdraw: Remove 1 ETH from the contract balance.
+ Get Greeting: Retrieve a greeting message from the contract.
 ## Smart Contract Details
-## Assessment.sol: Contains functions for deposit, withdrawal, balance retrieval, and a greeting message.
-## Functions:
-## getBalance(): Returns the contract balance.
-## deposit(uint256 _amount): Allows the owner to deposit a specified amount.
-## withdraw(uint256 _withdrawAmount): Allows the owner to withdraw a specified amount.
-## getGreeting(): Returns a greeting message.
+# Assessment.sol: Contains functions for deposit, withdrawal, balance retrieval, and a greeting message.
+# Functions:
+ getBalance(): Returns the contract balance.
+ deposit(uint256 _amount): Allows the owner to deposit a specified amount.
+ withdraw(uint256 _withdrawAmount): Allows the owner to withdraw a specified amount.
+ getGreeting(): Returns a greeting message.
 ## Frontend
-## Built with Next.js and Ethers.js for interacting with the Ethereum blockchain.
-## Styled using simple CSS for a clean and minimal interface.
+ Built with Next.js and Ethers.js for interacting with the Ethereum blockchain.
+ Styled using simple CSS for a clean and minimal interface.
 ## Important Notes
 Make sure your MetaMask is connected to the localhost:8545 network.
 Use the accounts provided by the Hardhat local node for testing.
-License
+## License
 This project is licensed under the MIT License.
